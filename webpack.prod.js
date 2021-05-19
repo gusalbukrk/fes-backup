@@ -16,6 +16,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url)); // eslint-disable-lin
 
 export default merge(common, {
   mode: 'production',
+  // devtool: 'source-map',
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].[contenthash].js',
