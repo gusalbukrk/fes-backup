@@ -23,6 +23,25 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
 
+    'import/order': [
+      'error',
+      {
+        alphabetize: { order: 'asc' },
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'unknown',
+          'parent',
+          'sibling',
+          'index',
+          'object',
+          'type',
+        ],
+        'newlines-between': 'always',
+      },
+    ],
+
     'import/extensions': [
       'error',
       'always', // should be `always` when `"type": "module"`
