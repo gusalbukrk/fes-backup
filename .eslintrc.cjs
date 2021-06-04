@@ -12,6 +12,7 @@ module.exports = {
   extends: [
     'airbnb-base',
     'prettier',
+    'plugin:react-hooks/recommended',
     'plugin:react/recommended',
     'plugin:jest/all',
   ],
