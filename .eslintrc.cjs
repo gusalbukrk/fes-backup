@@ -15,8 +15,9 @@ module.exports = {
     'plugin:react-hooks/recommended',
     'plugin:react/recommended',
     'plugin:jest/all',
+    'plugin:promise/recommended',
   ],
-  plugins: ['prettier', 'jest'],
+  plugins: ['prettier', 'jest', 'promise'],
   parserOptions: {
     ecmaVersion: 2021, // equivalent to 12
     sourceType: 'module',
