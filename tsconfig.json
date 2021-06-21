@@ -13,6 +13,8 @@
 
     // make `tsc` throw an error if an unsupported feature is used
     // if set true all implementation files must be modules (import or export something)
-    "isolatedModules": true
+    "isolatedModules": true,
+
+    "plugins": [{ "name": "typescript-plugin-css-modules" }]
   }
 }
